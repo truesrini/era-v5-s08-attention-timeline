@@ -1,0 +1,4 @@
+# Netlify: publish the static site in Ex08/ (no build step)
+[build]
+  publish = "Ex08"
+  command = ""
