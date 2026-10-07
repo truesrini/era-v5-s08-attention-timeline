@@ -3,7 +3,6 @@
 ERA V5 · Session 8 assignment. A static web app that explains every attention mechanism from the session, **in the order each one was launched**, each one framed as an answer to a bill that standard attention sent (T² compute, a linear-growing KV cache, or position that attention cannot supply itself).
 
 - **Live site (Netlify):** https://era-v5-s08-attention-timeline.netlify.app/
-- **Mirror (GitHub Pages):** https://truesrini.github.io/era-v5-s08-attention-timeline/
 - **Repository:** https://github.com/truesrini/era-v5-s08-attention-timeline (checked out locally as `Ex08`)
 
 ## What is on the page
@@ -104,7 +103,7 @@ python3 -m http.server 8000
 ## Deploy
 
 - **Netlify:** "Add new site → Import an existing project → GitHub → truesrini/era-v5-s08-attention-timeline". `netlify.toml` publishes the repo root, so no settings are needed. Name the site `era-v5-s08-attention-timeline` to match the links above. Or drag the `Ex08` folder onto app.netlify.com/drop.
-- **GitHub Pages** serves the same files from `main` at the mirror URL above.
+- **GitHub Pages (optional):** Settings → Pages → Deploy from branch `main`, folder `/ (root)`.
 
 ## Files
 
